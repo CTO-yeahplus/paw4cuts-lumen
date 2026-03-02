@@ -79,9 +79,9 @@ export default function FundraisingPrepSection() {
                     <strong className="text-white tracking-wide">[견생네컷 x LUMEN] 하이엔드 펫 라이프스타일 IP 자산화의 시작점, VIP 패스를 준비했습니다.</strong>
                   </div>
                   <hr className="border-zinc-800 my-4" />
-                  <p>OOO 심사역님, 안녕하십니까. 견생네컷팀을 맡고 있는 인생네컷 전무 고재혁입니다.</p>
+                  <p>OOO 대표님, 안녕하십니까. 견생네컷팀을 맡고 있는 인생네컷 전무 고재혁입니다.</p>
                   <p className="word-break-keep">
-                    심사역님께서 투자하신 [기존 포트폴리오사 이름]의 성공적인 스케일업 과정을 인상 깊게 보았으며, 
+                    대표님께서 투자하신 [기존 포트폴리오사 이름]의 성공적인 스케일업 과정을 인상 깊게 보았으며, 
                     우리가 만들고 있는 <b>'데이터 기반의 하이엔드 펫 라이프스타일 플랫폼'</b>이 심사역님의 투자 철학과 정확히 일치한다고 확신하여 연락드립니다.
                   </p>
                   <p className="word-break-keep text-white font-medium">

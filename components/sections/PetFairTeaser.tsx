@@ -79,12 +79,12 @@ export default function PetFairTeaser() {
               <span className="text-blue-500 font-bold text-xs tracking-widest uppercase mb-2 block border border-blue-500/30 w-fit px-3 py-1 rounded-full bg-blue-500/10">
                 Available at Pet Fair
               </span>
-              <h3 className="text-3xl font-bold mb-4 mt-4">오디너리독스 & 멍스널컬러 </h3>
+              <h3 className="text-3xl font-bold mb-4 mt-4">오디너리독스 <br/>& 멍스널컬러 </h3>
               <p className="text-zinc-400 leading-relaxed mb-6 word-break-keep">
                 모든 색을 덜어내어 아이의 맑은 눈빛과 본질에 집중하는 <b>흑백 마스터피스</b>와, AI가 털과 눈동자 색을 분석해 가장 찰떡인 배경을 찾아주는 맞춤형 <b>멍스널컬러 리포트</b>. 견생네컷의 가장 완벽한 시그니처 경험은 현장에서 즉시 체험하실 수 있습니다.
               </p>
             </div>
-            <div className="w-full md:w-1/3 aspect-square bg-zinc-900 rounded-2xl border border-zinc-800 relative overflow-hidden flex items-center justify-center z-10">
+            <div className="w-full md:w-2/3 aspect-[3/4] bg-zinc-900 rounded-2xl border border-zinc-800 relative overflow-hidden flex items-center justify-center z-10">
               <div className="text-zinc-700 font-bold tracking-widest text-sm">AI COLOR ANALYSIS</div>
               {/* 동적 배경 롤링 (Cross-fade) */}
               {paws4cutImages.map((img, idx) => {
@@ -219,10 +219,10 @@ export default function PetFairTeaser() {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-50" />
             <h2 className="text-3xl md:text-4xl font-bold mb-6">차세대 라인업, 가장 먼저 경험하십시오.</h2>
             <p className="text-zinc-400 mb-10 max-w-xl mx-auto word-break-keep text-lg">
-              오늘 LUMEN 앱을 미리 다운로드하시면, 현장 시그니처 촬영의 '대기열 우선 패스'는 물론, <b>향후 독윅 & 견생밑컷 정식 런칭 시 가장 먼저 VIP 우선 예약권</b>을 발송해 드립니다.
+              지금 LUMEN을 경험하시면, 현장 시그니처 촬영의 '대기열 우선 패스'는 물론, <b>향후 독윅 & 견생밑컷 정식 런칭 시 가장 먼저 VIP 우선 예약권</b>을 발송해 드립니다.
             </p>
             <button className="bg-white text-black font-bold text-lg px-8 py-4 rounded-full hover:scale-105 transition-transform shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-              LUMEN 앱 미리 다운로드하기
+              LUMEN 앱 미리 경험하기
             </button>
           </div>
         </ScrollReveal>
