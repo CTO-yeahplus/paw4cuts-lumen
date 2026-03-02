@@ -6,13 +6,13 @@ import FloatingNav from "@/components/FloatingNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Project LUMEN",
-  description: "하이엔드 펫 라이프스타일 생태계",
+  title: "견생네컷 x LUMEN",
+  description: "하이엔드 펫 라이프스타일",
 
   // 🌟 카카오톡, 페이스북, 슬랙 링크 공유 시 뜨는 썸네일 (Open Graph)
   openGraph: {
     title: "견생네컷 x LUMEN ",
-    description: "하이엔드 펫 라이프스타일 생태계",
+    description: "하이엔드 펫 라이프스타일",
     url: 'https://paw4cuts-lumen.vercel.app/', // 나중에 실제 도메인으로 교체
     siteName: '견생네컷',
     images: [
