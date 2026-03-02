@@ -27,7 +27,6 @@ const dogwickImages = [
   "/images/dogwick/dogwick_05.jpg",
   "/images/dogwick/dogwick_06.jpg",
   "/images/dogwick/dogwick_07.jpg",
-  "/images/dogwick/dogwick_08.jpg",
 ];
 
 // 🍏 밑컷 롤링 이미지 배열
