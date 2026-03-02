@@ -18,8 +18,8 @@ export default function FloatingNav() {
     { name: "IR Pitch", path: "/ir-pitch" },    // 🍏 투자사용 (신규)
     { name: "Reverse Pitch", path: "/reverse-pitch" },
     { name: "Spatial", path: "/flagship" },
-    { name: "Teaser", path: "/petfair" },
-    { name: "Playbook", path: "/playbook" },
+    { name: "petfair", path: "/petfair" },
+    { name: "Guidebook", path: "/playbook" },
     { name: "Fundraising", path: "/fundraising" }, // 🍏 신규 투자 준비 페이지 추가
   ];
 
