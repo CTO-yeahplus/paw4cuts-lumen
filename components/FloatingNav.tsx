@@ -21,6 +21,7 @@ export default function FloatingNav() {
     { name: "petfair", path: "/petfair" },
     { name: "Guidebook", path: "/playbook" },
     { name: "Fundraising", path: "/fundraising" }, // 🍏 신규 투자 준비 페이지 추가
+    { name: "App Demo", path: "/app-demo" }, // 🍏 앱 시뮬레이터 라우트 추가
   ];
 
   return (
