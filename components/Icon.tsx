@@ -1,4 +1,10 @@
-export default function Icon({ name }: { name: string }) {
+export default function Icon({ 
+  name, 
+  className 
+}: { 
+  name: string; 
+  className?: string; // 👈 이 부분을 추가하세요
+}) {
     const common = {
       width: 24, height: 24, viewBox: "0 0 24 24", fill: "none",
       stroke: "currentColor", strokeWidth: 1.5, strokeLinecap: "round" as const, strokeLinejoin: "round" as const,
