@@ -379,7 +379,7 @@ export default function IrPitchSection() {
               {/* 1. 메인 이미지/영상 영역 (image_01.jpg) */}
               <div className="col-span-2 row-span-2 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5 cursor-pointer">
                  <img 
-                   src="/images/sketch/image_01.jpg" 
+                   src="/images/sketch/image_01.JPG" 
                    alt="현장 스케치 메인" 
                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                  />
@@ -396,7 +396,7 @@ export default function IrPitchSection() {
               {/* 2. 우측 상단 사진 1 (image_02.jpg) */}
               <div className="col-span-1 row-span-1 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5">
                  <img 
-                   src="/images/sketch/image_02.jpg" 
+                   src="/images/sketch/image_02.JPG" 
                    alt="현장 사진 02" 
                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                  />
