@@ -6,7 +6,7 @@ export default function FloatingNav() {
   const pathname = usePathname();
 
   // 🍏 1급 기밀 보호: 대중 공개용 페이지(티저)에서는 메뉴를 숨깁니다.
-  const publicRoutes = ["/petfair", "/pitch"];
+  const publicRoutes = ["/petfair", "/pitch", "/ir-pitch"];
   
   if (publicRoutes.includes(pathname)) {
     return null;
