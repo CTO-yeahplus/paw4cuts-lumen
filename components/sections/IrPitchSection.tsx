@@ -368,24 +368,23 @@ export default function IrPitchSection() {
               <span className="text-blue-500 font-bold tracking-[0.2em] uppercase text-xs mb-4 block">Field Momentum</span>
               <h2 className="text-3xl md:text-5xl font-bold mb-6">숫자 너머의 열광적인 현장</h2>
               <p className="text-lg text-zinc-400 max-w-2xl mx-auto word-break-keep">
-                지표보다 확실한 것은 현장의 온도입니다. 고객들은 자발적으로 릴스를 촬영하고, <br/>
+                지표보다 확실한 것은 현장의 온도입니다. 고객들은 자발적으로 릴스를 촬영하고, <br className="hidden md:block" />
                 긴 대기열조차 놀이로 즐기며 PAWTRAITEDITION의 첫 팬덤이 되었습니다.
               </p>
             </div>
             
-            {/* 💡 Bento Grid Gallery Layout */}
-            <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-4 h-[50vh] md:h-[60vh]">
+            {/* 💡 Bento Grid Gallery Layout (반응형 완벽 수정) */}
+            {/* 모바일: 4줄(grid-rows-4), PC: 2줄(md:grid-rows-2) 로 변경하여 모든 사진이 나오도록 수정 */}
+            <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 md:grid-rows-2 gap-4 h-[70vh] md:h-[60vh]">
               
               {/* 1. 메인 이미지/영상 영역 (image_01.jpg) */}
-              <div className="col-span-2 row-span-2 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5 cursor-pointer">
+              <div className="col-span-2 row-span-2 bg-zinc-900 rounded-[32px] md:rounded-[32px] rounded-3xl relative overflow-hidden group border border-white/5 cursor-pointer">
                  <img 
                    src="/images/sketch/image_01.JPG" 
                    alt="현장 스케치 메인" 
                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                  />
                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
-                 
-                 {/* Play 버튼 오버레이 (영상일 경우 대비) */}
                  
                  <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
                    <div className="text-xs font-bold text-blue-400 mb-1 uppercase tracking-wider">펫페어 팝업</div>
@@ -394,36 +393,35 @@ export default function IrPitchSection() {
               </div>
 
               {/* 2. 우측 상단 사진 1 (image_02.jpg) */}
-              <div className="col-span-1 row-span-1 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5">
+              <div className="col-span-1 row-span-1 bg-zinc-900 rounded-[32px] md:rounded-[32px] rounded-3xl relative overflow-hidden group border border-white/5">
                  <img 
                    src="/images/sketch/image_02.JPG" 
                    alt="현장 사진 02" 
                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                  />
                  <div className="absolute bottom-4 left-4 z-10">
-                   <div className="text-[10px] font-bold text-zinc-300 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-md border border-white/10">#펫페어_눈을뗄수없다</div>
+                   <div className="text-[10px] font-bold text-zinc-300 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-md border border-white/10 hidden md:block">#펫페어_눈을뗄수없다</div>
                  </div>
               </div>
 
               {/* 3. 우측 상단 사진 2 (image_03.jpg) */}
-              <div className="col-span-1 row-span-1 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5">
+              <div className="col-span-1 row-span-1 bg-zinc-900 rounded-[32px] md:rounded-[32px] rounded-3xl relative overflow-hidden group border border-white/5">
                  <img 
                    src="/images/sketch/image_03.jpg" 
                    alt="현장 사진 03" 
                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                  />
                  <div className="absolute bottom-4 left-4 z-10">
-                   <div className="text-[10px] font-bold text-zinc-300 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-md border border-white/10">#즐거움에_끝이없다</div>
+                   <div className="text-[10px] font-bold text-zinc-300 bg-black/60 px-3 py-1.5 rounded-full backdrop-blur-md border border-white/10 hidden md:block">#즐거움에_끝이없다</div>
                  </div>
               </div>
 
               {/* 4. 우측 하단 긴 영역 (image_04.jpg) */}
-              {/* 💡 div 태그를 a 태그로 변경하고 href와 target="_blank" 속성을 추가했습니다. */}
               <a 
                 href="https://www.instagram.com/paw4cuts_official" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="col-span-2 row-span-1 bg-zinc-900 rounded-[32px] relative overflow-hidden group border border-white/5 block cursor-pointer"
+                className="col-span-2 row-span-1 bg-zinc-900 rounded-[32px] md:rounded-[32px] rounded-3xl relative overflow-hidden group border border-white/5 block cursor-pointer"
               >
                 <img 
                   src="/images/sketch/image_04.jpg" 
@@ -433,15 +431,15 @@ export default function IrPitchSection() {
                 
                 {/* 호버 시 나타나는 '갤러리 더보기' 버튼 */}
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20">
-                    <span className="px-5 py-2.5 bg-white text-black font-bold text-sm rounded-full flex items-center gap-2 transition-transform duration-300 group-hover:scale-105">
+                    <span className="px-5 py-2.5 bg-white text-black font-bold text-xs md:text-sm rounded-full flex items-center gap-2 transition-transform duration-300 group-hover:scale-105">
                       인스타그램에서 더보기
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
                     </span>
                 </div>
                 
                 <div className="absolute bottom-5 left-6 z-10">
-                  <div className="text-lg font-bold text-white mb-1">자발적인 인스타그램 바이럴 확산</div>
-                  <div className="text-sm text-zinc-300">누적 해시태그 500+ 돌파 및 자발적 릴스 생성</div>
+                  <div className="text-base md:text-lg font-bold text-white mb-1">자발적인 인스타그램 바이럴 확산</div>
+                  <div className="text-xs md:text-sm text-zinc-300">누적 해시태그 500+ 돌파 및 자발적 릴스 생성</div>
                 </div>
               </a>
 
